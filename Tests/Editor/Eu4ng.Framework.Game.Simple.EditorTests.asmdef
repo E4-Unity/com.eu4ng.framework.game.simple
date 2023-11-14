@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "Eu4ng.Framework.Game.Simple.Runtime"
     ],
     "includePlatforms": [
         "Editor"
