@@ -1,6 +1,6 @@
 {
 	"name": "com.eu4ng.framework.game.simple",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"displayName": "Simple Game Framework",
 	"description": "Simple Game Framework for Unity",
 	"unity": "2021.3",
