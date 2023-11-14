@@ -9,8 +9,7 @@ jobs:
       contents: write
       issues: write
     name: release
-    runs-on: self-hosted
-    if: ${{ contains(github.event.head_commit.message, 'feat') || contains(github.event.head_commit.message, 'fix') || contains(github.event.head_commit.message, 'perf') }}
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
