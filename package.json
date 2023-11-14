@@ -1,12 +1,13 @@
 {
 	"name": "com.eu4ng.framework.game.simple",
-	"displayName": "Simple Game Framework",
 	"version": "0.0.0",
+	"displayName": "Simple Game Framework",
+	"description": "Simple Game Framework for Unity",
 	"unity": "2021.3",
+	"documentationUrl": "https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/wiki",
 	"author": {
 		"name": "Eu4ng",
 		"email": "eu4ng97@gmail.com",
 		"url": "https://github.com/Eu4ng"
-	},
-	"description": "Simple Game Framework for Unity"
+	}
 }
