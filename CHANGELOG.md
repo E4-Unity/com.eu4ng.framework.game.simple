@@ -3,7 +3,7 @@
 
 ### Features
 
-* **controller:** 특성 집합 클래스 작성 및 데미지 프레임워크 구현 - resolve [#2](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/issues/2) ([c40ee96](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/commit/c40ee96fbae6d3f69d2fb79df69a2b9da496b96a))
+* **attribute:** 특성 집합 클래스 작성 및 데미지 프레임워크 구현 - resolve [#2](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/issues/2) ([c40ee96](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/commit/c40ee96fbae6d3f69d2fb79df69a2b9da496b96a))
 * **controller:** 폰과 컨트롤러 추상 클래스 작성 - resolve [#1](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/issues/1) ([c203955](https://github.com/Eu4ngUnity/unitypackage-simple-game-framework/commit/c203955aa8a12e6b7b4f10083f91e7d8f3d93938))
 
 # 0.0.0 (2023-11-14)
