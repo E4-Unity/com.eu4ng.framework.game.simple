@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using UnityEngine;
 
-public class PawnWithControllerTests
+public class ControllerSystemTests
 {
     [Test]
     public void ReferenceTests()
@@ -42,43 +42,5 @@ public class PawnWithControllerTests
     {
 	    character = new GameObject().AddComponent<Character>();
 	    playerController = new GameObject().AddComponent<PlayerController>();
-    }
-
-    internal class Character : Pawn
-    {
-	    bool _isOnPossessedCalled;
-	    bool _isOnUnPossessedCalled;
-
-	    public bool IsOnPossessedCalled => _isOnPossessedCalled;
-	    public bool IsOnUnPossessedCalled => _isOnUnPossessedCalled;
-
-	    protected override void OnPossessed(Controller newController)
-	    {
-		    _isOnPossessedCalled = true;
-	    }
-
-	    protected override void OnUnPossessed()
-	    {
-		    _isOnUnPossessedCalled = true;
-	    }
-    }
-
-    internal class PlayerController : Controller
-    {
-	    bool _isOnPossessCalled;
-	    bool _isOnUnPossessCalled;
-
-	    public bool IsOnPossessCalled => _isOnPossessCalled;
-	    public bool IsOnUnPossessCalled => _isOnUnPossessCalled;
-
-	    protected override void OnPossess(Pawn newPawn)
-	    {
-		    _isOnPossessCalled = true;
-	    }
-
-	    protected override void OnUnPossess()
-	    {
-		    _isOnUnPossessCalled = true;
-	    }
     }
 }
